@@ -1,4 +1,4 @@
-package java;
+package code.java;
 
 import java.util.Set;
 import java.util.HashSet;
@@ -24,7 +24,8 @@ public class _003 {
     */
 
     // 方法2：滑动窗口
-    // set储存[i,j]内字符，集合往右边扩展，扩展失败则舍弃左边字符直到扩展成功，扩展成功更新max
+    // 将set看作一个可以在字符串上滑动的窗口，窗口边界为[i,j)，窗口大小为j-i
+    // j向右逐步滑动，滑动失败(遇到重复字符)则舍弃左边字符(i向右滑动)，滑动成功则更新max
     // 时间复杂度：O(n)
     public int lengthOfLongestSubstring(String s) {
         int max = 0, i = 0, j = 0, len = s.length();

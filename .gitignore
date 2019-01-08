@@ -3,3 +3,5 @@ bin
 .idea
 .classpath
 .project
+log.txt
+Test.java

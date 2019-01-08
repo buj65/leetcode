@@ -1,7 +1,7 @@
-package java;
+package code.java;
 
-import java.util.HashMap;
 import java.util.Map;
+import java.util.HashMap;
 
 public class _001 {
     public int[] twoSum(int[] nums, int target) {
@@ -13,6 +13,6 @@ public class _001 {
             }
             map.put(nums[i], i);
         }
-        return null;
+        throw new IllegalArgumentException("No solution");
     }
 }
