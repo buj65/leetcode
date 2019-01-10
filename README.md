@@ -18,3 +18,9 @@
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) ([有效的数独](https://leetcode-cn.com/problems/valid-sudoku)) | [Java](src/code/java/_036.java) | Medium |
 | 46 | [Permutations](https://leetcode.com/problems/permutations) ([全排列](https://leetcode-cn.com/problems/permutations)) | [JavaScrpit](src/code/js/_046.js) | Medium |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) ([旋转图像](https://leetcode-cn.com/problems/rotate-image)) | [Java](src/code/java/_048.java), [JavaScrpit](src/code/js/_048.js) | Medium |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) ([最大子序和](https://leetcode-cn.com/problems/maximum-subarray)) | [Java](src/code/java/_053.java), [JavaScrpit](src/code/js/_053.js) | Easy |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) ([最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word)) | [Java](src/code/java/_058.java) | Easy |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) ([不同路径](https://leetcode-cn.com/problems/unique-paths)) | [Java](src/code/java/_062.java), [JavaScrpit](src/code/js/_062.js) | Medium |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one) ([加一](https://leetcode-cn.com/problems/plus-one)) | [Java](src/code/java/_066.java), [JavaScrpit](src/code/js/_066.js) | Easy |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) ([x 的平方根](https://leetcode-cn.com/problems/sqrtx)) | [Java](src/code/java/_069.java) | Easy |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) ([爬楼梯](https://leetcode-cn.com/problems/climbing-stairs)) | [Java](src/code/java/_070.java), [JavaScrpit](src/code/js/_070.js) | Easy |

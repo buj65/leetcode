@@ -1,8 +1,7 @@
 package code.java;
 
 public class _048 {
-    // 先上下交换，再沿左对角线交换
-    // 或先沿左对角线交换，再左右交换
+    // 先上下交换，再沿左对角线交换；或先沿左对角线交换，再左右交换
     public void rotate(int[][] matrix) {
         int len = matrix.length;
         for (int i = 0; i < len; i++) {
