@@ -1,6 +1,7 @@
 package code.java;
 
 public class _098 {
+    // BST: Binary Search Tree
     public boolean isValidBST(TreeNode root) {
         return isValidBST(root, -1L + Integer.MIN_VALUE, 1L + Integer.MAX_VALUE);
     }
