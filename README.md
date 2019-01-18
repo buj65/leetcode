@@ -1,5 +1,7 @@
 # leetcode
 
+Solved: {Easy: 47, Medium: 14}
+
 |#|Title|Solution|Difficulty|
 |:-:|-|-|:-:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum) ([两数之和](https://leetcode-cn.com/problems/two-sum)) | [Java](./src/code/java/_001.java), [JavaScrpit](./src/code/js/_001.js) | Easy |
@@ -29,18 +31,37 @@
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) ([验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree)) | [Java](./src/code/java/_098.java) | Medium |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) ([二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)) | [Java](./src/code/java/_102.java) | Medium |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) ([二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)) | [Java](./src/code/java/_104.java) | Easy |
+| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) ([平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree)) | [Java](./src/code/java/_110.java) | Easy |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) ([杨辉三角](https://leetcode-cn.com/problems/pascals-triangle)) | [Java](./src/code/java/_118.java), [JavaScrpit](./src/code/js/_118.js) | Easy |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) ([杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii)) | [Java](./src/code/java/_119.java), [JavaScrpit](./src/code/js/_119.js) | Easy |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) ([买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)) | [Java](./src/code/java/_121.java), [JavaScrpit](./src/code/js/_121.js) | Easy |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) ([买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)) | [Java](./src/code/java/_122.java), [JavaScrpit](./src/code/js/_122.js) | Easy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number) ([只出现一次的数字](https://leetcode-cn.com/problems/single-number)) | [Java](./src/code/java/_136.java), [JavaScrpit](./src/code/js/_136.js) | Easy |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) ([环形链表](https://leetcode-cn.com/problems/linked-list-cycle)) | [Java](./src/code/java/_141.java) | Easy |
-| 155 | [Min Stack](https://leetcode.com/problems/min-stack) ([最小栈](https://leetcode-cn.com/problems/min-stack)) | [Java](./src/code/java/MinStack.java) | Easy |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack) ([最小栈](https://leetcode-cn.com/problems/min-stack)) | [Java](./src/code/java/_155.java) | Easy |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) ([相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists)) | [Java](./src/code/java/_160.java) | Easy |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element) ([求众数](https://leetcode-cn.com/problems/majority-element)) | [Java](./src/code/java/_169.java), [JavaScrpit](./src/code/js/_169.js) | Easy |
+| 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) ([阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes)) | [Java](./src/code/java/_172.java), [JavaScrpit](./src/code/js/_172.js) | Easy |
 | 175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables) ([组合两个表](https://leetcode-cn.com/problems/combine-two-tables)) | [MySQL](./src/code/sql/_175.sql) | Easy |
 | 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary) ([第二高的薪水](https://leetcode-cn.com/problems/second-highest-salary)) | [MySQL](./src/code/sql/_176.sql) | Easy |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array) ([旋转数组](https://leetcode-cn.com/problems/rotate-array)) | [Java](./src/code/java/_189.java), [JavaScrpit](./src/code/js/_189.js) | Easy |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) ([位1的个数](https://leetcode-cn.com/problems/number-of-1-bits)) | [Java](./src/code/java/_191.java), [JavaScrpit](./src/code/js/_191.js) | Easy |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber) ([打家劫舍](https://leetcode-cn.com/problems/house-robber)) | [Java](./src/code/java/_198.java), [JavaScrpit](./src/code/js/_198.js) | Easy |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands) ([岛屿的个数](https://leetcode-cn.com/problems/number-of-islands)) | [Java](./src/code/java/_200.java), [JavaScrpit](./src/code/js/_200.js) | Medium |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes) ([计数质数](https://leetcode-cn.com/problems/count-primes)) | [Java](./src/code/java/_204.java), [JavaScrpit](./src/code/js/_204.js) | Easy |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) ([反转链表](https://leetcode-cn.com/problems/reverse-linked-list)) | [Java](./src/code/java/_206.java) | Easy |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) ([存在重复元素](https://leetcode-cn.com/problems/contains-duplicate)) | [Java](./src/code/java/_217.java), [JavaScrpit](./src/code/js/_217.js) | Easy |
+| 231 | [Power of Two](https://leetcode.com/problems/power-of-two) ([2的幂](https://leetcode-cn.com/problems/power-of-two)) | [Java](./src/code/java/_231.java), [JavaScrpit](./src/code/js/_231.js) | Easy |
+| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) ([回文链表](https://leetcode-cn.com/problems/palindrome-linked-list)) | [Java](./src/code/java/_234.java) | Easy |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) ([二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree)) | [Java](./src/code/java/_235.java) | Easy |
+| 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) ([删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list)) | [Java](./src/code/java/_237.java) | Easy |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number) ([缺失数字](https://leetcode-cn.com/problems/missing-number)) | [Java](./src/code/java/_268.java), [JavaScrpit](./src/code/js/_268.js) | Easy |
+| 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version) ([第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version)) | [Java](./src/code/java/_278.java), [JavaScrpit](./src/code/js/_278.js) | Easy |
+| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes) ([移动零](https://leetcode-cn.com/problems/move-zeroes)) | [Java](./src/code/java/_283.java), [JavaScrpit](./src/code/js/_283.js) | Easy |
+| 292 | [Nim Game](https://leetcode.com/problems/nim-game) ([Nim游戏](https://leetcode-cn.com/problems/nim-game)) | [Java](./src/code/java/_292.java), [JavaScrpit](./src/code/js/_292.js) | Easy |
+| 326 | [Power of Three](https://leetcode.com/problems/power-of-three) ([3的幂](https://leetcode-cn.com/problems/power-of-three)) | [Java](./src/code/java/_326.java), [JavaScrpit](./src/code/js/_326.js) | Easy |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string) ([反转字符串](https://leetcode-cn.com/problems/reverse-string)) | [Java](./src/code/java/_344.java), [JavaScrpit](./src/code/js/_344.js) | Easy |
+| 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) ([两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)) | [Java](./src/code/java/_350.java), [JavaScrpit](./src/code/js/_350.js) | Easy |
+| 384 | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array) ([打乱数组](https://leetcode-cn.com/problems/shuffle-an-array)) | [Java](./src/code/java/_384.java), [JavaScrpit](./src/code/js/_384.js) | Medium |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) ([汉明距离](https://leetcode-cn.com/problems/hamming-distance)) | [Java](./src/code/java/_461.java), [JavaScrpit](./src/code/js/_461.js) | Easy |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) ([反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii)) | [Java](./src/code/java/_557.java), [JavaScrpit](./src/code/js/_557.js) | Easy |

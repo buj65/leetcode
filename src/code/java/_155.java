@@ -2,12 +2,12 @@ package code.java;
 
 import java.util.Stack;
 
-//_155
-class MinStack {
+//MinStack
+class _155 {
     private Stack<Integer> stack;
     private Stack<Integer> min;
 
-    public MinStack() {
+    public _155() {
         stack = new Stack<Integer>();
         min = new Stack<Integer>();
     }
