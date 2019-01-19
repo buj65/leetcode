@@ -1,6 +1,6 @@
 # leetcode
 
-Solved: {Easy: 47, Medium: 14}
+Solved: {Easy: 47, Medium: 14, Hard: 1}
 
 |#|Title|Solution|Difficulty|
 |:-:|-|-|:-:|
@@ -20,6 +20,7 @@ Solved: {Easy: 47, Medium: 14}
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) ([有效的数独](https://leetcode-cn.com/problems/valid-sudoku)) | [Java](./src/code/java/_036.java) | Medium |
 | 46 | [Permutations](https://leetcode.com/problems/permutations) ([全排列](https://leetcode-cn.com/problems/permutations)) | [JavaScrpit](./src/code/js/_046.js) | Medium |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) ([旋转图像](https://leetcode-cn.com/problems/rotate-image)) | [Java](./src/code/java/_048.java), [JavaScrpit](./src/code/js/_048.js) | Medium |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens) ([N皇后](https://leetcode-cn.com/problems/n-queens)) | [Java](./src/code/java/_051.java) | Hard |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) ([最大子序和](https://leetcode-cn.com/problems/maximum-subarray)) | [Java](./src/code/java/_053.java), [JavaScrpit](./src/code/js/_053.js) | Easy |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) ([最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word)) | [Java](./src/code/java/_058.java) | Easy |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) ([不同路径](https://leetcode-cn.com/problems/unique-paths)) | [Java](./src/code/java/_062.java), [JavaScrpit](./src/code/js/_062.js) | Medium |
