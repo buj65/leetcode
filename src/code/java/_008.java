@@ -2,7 +2,7 @@ package code.java;
 
 public class _008 {
     public int myAtoi(String str) {
-        long ans = 0;
+        int res = 0;
         int i = 0, sign = 1, len = str.length();
         // 去掉头部空格
         while (i < len && str.charAt(i) == ' ') {
@@ -19,11 +19,14 @@ public class _008 {
             if (n < 0 || n > 9) {
                 break;
             }
-            ans = ans * 10 + sign * n;
-            if (ans > Integer.MAX_VALUE || ans < Integer.MIN_VALUE) {
-                return sign > 0 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+            if (sign > 0 && res > (Integer.MAX_VALUE - sign * n) / 10) {
+                return Integer.MAX_VALUE;
             }
+            if (sign < 0 && res < (Integer.MIN_VALUE - sign * n) / 10) {
+                return Integer.MIN_VALUE;
+            }
+            res = res * 10 + sign * n;
         }
-        return (int) ans;
+        return res;
     }
 }

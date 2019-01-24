@@ -1,6 +1,6 @@
 # leetcode
 
-Solved: {Easy: 47, Medium: 14, Hard: 1}
+Solved: {Easy: 49, Medium: 16, Hard: 2}
 
 |#|Title|Solution|Difficulty|
 |:-:|-|-|:-:|
@@ -8,7 +8,10 @@ Solved: {Easy: 47, Medium: 14, Hard: 1}
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) ([两数相加](https://leetcode-cn.com/problems/add-two-numbers)) | [Java](./src/code/java/_002.java), [JavaScrpit](./src/code/js/_002.js) | Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) ([无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters)) | [Java](./src/code/java/_003.java), [JavaScrpit](./src/code/js/_003.js) | Medium |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) ([最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring)) | [Java](./src/code/java/_005.java), [JavaScrpit](./src/code/js/_005.js) | Medium |
+| 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) ([Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion)) | [Java](./src/code/java/_006.java), [JavaScrpit](./src/code/js/_006.js) | Medium |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) ([整数反转](https://leetcode-cn.com/problems/reverse-integer)) | [Java](./src/code/java/_007.java) | Easy |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) ([字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi)) | [Java](./src/code/java/_008.java) | Medium |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) ([回文数](https://leetcode-cn.com/problems/palindrome-number)) | [Java](./src/code/java/_009.java) | Easy |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) ([盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water)) | [Java](./src/code/java/_011.java), [JavaScrpit](./src/code/js/_011.js) | Medium |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) ([最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix)) | [Java](./src/code/java/_014.java), [JavaScrpit](./src/code/js/_014.js) | Easy |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) ([删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)) | [Java](./src/code/java/_019.java) | Medium |
@@ -40,6 +43,7 @@ Solved: {Easy: 47, Medium: 14, Hard: 1}
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) ([买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)) | [Java](./src/code/java/_122.java), [JavaScrpit](./src/code/js/_122.js) | Easy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number) ([只出现一次的数字](https://leetcode-cn.com/problems/single-number)) | [Java](./src/code/java/_136.java), [JavaScrpit](./src/code/js/_136.js) | Easy |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) ([环形链表](https://leetcode-cn.com/problems/linked-list-cycle)) | [Java](./src/code/java/_141.java) | Easy |
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache) ([LRU缓存机制](https://leetcode-cn.com/problems/lru-cache)) | [Java](./src/code/java/_146.java) | Hard |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack) ([最小栈](https://leetcode-cn.com/problems/min-stack)) | [Java](./src/code/java/_155.java) | Easy |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) ([相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists)) | [Java](./src/code/java/_160.java) | Easy |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element) ([求众数](https://leetcode-cn.com/problems/majority-element)) | [Java](./src/code/java/_169.java), [JavaScrpit](./src/code/js/_169.js) | Easy |
