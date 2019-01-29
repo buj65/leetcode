@@ -1,6 +1,6 @@
 # leetcode
 
-Solved: {Easy: 49, Medium: 16, Hard: 2}
+**Solved: {Easy: 49, Medium: 16, Hard: 2}**
 
 |#|Title|Solution|Difficulty|
 |:-:|-|-|:-:|

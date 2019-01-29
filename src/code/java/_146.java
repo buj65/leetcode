@@ -19,7 +19,7 @@ public class _146 {
         if (map.containsKey(key)) {
             int val = map.get(key).val;
             put(key, val);// 将使用过的缓存放到队尾
-            return map.get(key).val;
+            return val;
         }
         return -1;
     }
