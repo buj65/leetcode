@@ -13,6 +13,6 @@ public class _001 {
             }
             map.put(nums[i], i);
         }
-        throw new IllegalArgumentException("No solution");
+        throw new RuntimeException("No solution");
     }
 }

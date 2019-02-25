@@ -1,6 +1,6 @@
 # leetcode
 
-**Solved: {Easy: 58, Medium: 16, Hard: 2}**
+**Solved: {Easy: 57, Medium: 15, Hard: 2}**
 
 |#|Title|Solution|Difficulty|
 |:-:|-|-|:-:|
@@ -8,10 +8,8 @@
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) ([两数相加](https://leetcode-cn.com/problems/add-two-numbers)) | [Java](./src/code/java/_002.java) | Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) ([无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters)) | [Java](./src/code/java/_003.java), [JavaScrpit](./src/code/js/_003.js) | Medium |
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) ([最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring)) | [Java](./src/code/java/_005.java), [JavaScrpit](./src/code/js/_005.js) | Medium |
-| 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) ([Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion)) | [Java](./src/code/java/_006.java), [JavaScrpit](./src/code/js/_006.js) | Medium |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) ([整数反转](https://leetcode-cn.com/problems/reverse-integer)) | [Java](./src/code/java/_007.java) | Easy |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) ([字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi)) | [Java](./src/code/java/_008.java) | Medium |
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) ([回文数](https://leetcode-cn.com/problems/palindrome-number)) | [Java](./src/code/java/_009.java) | Easy |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) ([盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water)) | [Java](./src/code/java/_011.java), [JavaScrpit](./src/code/js/_011.js) | Medium |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) ([最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix)) | [Java](./src/code/java/_014.java), [JavaScrpit](./src/code/js/_014.js) | Easy |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) ([删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)) | [Java](./src/code/java/_019.java) | Medium |

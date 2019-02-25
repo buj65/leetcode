@@ -12,7 +12,7 @@ public class _146 {
 
     public _146(int capacity) {
         this.capacity = capacity;
-        map = new HashMap<Integer, DNode>(capacity * 4 / 3 + 1);
+        map = new HashMap<Integer, DNode>(capacity * 4 / 3 + 1);// 防止rehash
     }
 
     public int get(int key) {

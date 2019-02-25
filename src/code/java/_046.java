@@ -2,7 +2,14 @@ package code.java;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+   执行过程(深度优先)
+  n=0            _________[1,2,3]_________
+                /            |            \
+  n=1     [1,2,3]         [2,1,3]         [3,2,1]
+            / \             / \             / \
+  n=2 [1,2,3] [1,3,2] [2,1,3] [2,3,1] [3,2,1] [3,1,2]
+ * */
 public class _046 {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();

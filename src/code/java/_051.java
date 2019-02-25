@@ -22,6 +22,8 @@ import java.util.List;
       (2,1) (2,0) (2,3) (2,2)       在第2行放下皇后
               |     |      
             (3,2) (3,1)             在第3行放下皇后
+
+因此n=4时有两个不同的解法: [1,3,0,2], [2,0,3,1]
  * */
 public class _051 {
     // 总行数，总列数，总皇后个数
@@ -54,6 +56,16 @@ public class _051 {
         }
     }
 
+    // 检查(x,y)坐标的皇后跟行坐标小于x的皇后是否有冲突
+    private boolean check(int x, int y) {
+        for (int i = 0; i < x; i++) {
+            if (queens[i] == y || i + queens[i] == x + y || x - i == y - queens[i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     // 把当前queens的坐标值记录到result
     private void addLog() {
         List<String> list = new ArrayList<>();
@@ -64,15 +76,5 @@ public class _051 {
             list.add(new String(board[i]));
         }
         result.add(list);
-    }
-
-    // 检查(x,y)坐标的皇后跟行坐标小于x的皇后是否有冲突
-    private boolean check(int x, int y) {
-        for (int i = 0; i < x; i++) {
-            if (queens[i] == y || i + queens[i] == x + y || x - i == y - queens[i]) {
-                return false;
-            }
-        }
-        return true;
     }
 }

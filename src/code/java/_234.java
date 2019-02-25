@@ -16,6 +16,7 @@ public class _234 {
         }
         int l = 0, r = list.size() - 1;
         while (l < r) {
+            //Integer对象不能直接比较
             if (list.get(l++).intValue() != list.get(r--).intValue()) {
                 return false;
             }
