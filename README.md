@@ -29,6 +29,7 @@
 | 66 | [Plus One](https://leetcode.com/problems/plus-one) ([加一](https://leetcode-cn.com/problems/plus-one)) | [Java](./src/code/java/_066.java), [JavaScrpit](./src/code/js/_066.js) | Easy |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) ([x 的平方根](https://leetcode-cn.com/problems/sqrtx)) | [Java](./src/code/java/_069.java) | Easy |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) ([爬楼梯](https://leetcode-cn.com/problems/climbing-stairs)) | [Java](./src/code/java/_070.java), [JavaScrpit](./src/code/js/_070.js) | Easy |
+| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) ([搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix)) | [Java](./src/code/java/_074.java) | Medium |
 | 78 | [Subsets](https://leetcode.com/problems/subsets) ([子集](https://leetcode-cn.com/problems/subsets)) | [Java](./src/code/java/_078.java), [JavaScrpit](./src/code/js/_078.js) | Medium |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) ([合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array)) | [Java](./src/code/java/_088.java), [JavaScrpit](./src/code/js/_088.js) | Easy |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) ([验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree)) | [Java](./src/code/java/_098.java) | Medium |
@@ -60,6 +61,7 @@
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes) ([计数质数](https://leetcode-cn.com/problems/count-primes)) | [Java](./src/code/java/_204.java), [JavaScrpit](./src/code/js/_204.js) | Easy |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) ([反转链表](https://leetcode-cn.com/problems/reverse-linked-list)) | [Java](./src/code/java/_206.java) | Easy |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) ([存在重复元素](https://leetcode-cn.com/problems/contains-duplicate)) | [Java](./src/code/java/_217.java), [JavaScrpit](./src/code/js/_217.js) | Easy |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) ([翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree)) | [Java](./src/code/java/_226.java) | Easy |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two) ([2的幂](https://leetcode-cn.com/problems/power-of-two)) | [Java](./src/code/java/_231.java), [JavaScrpit](./src/code/js/_231.js) | Easy |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) ([回文链表](https://leetcode-cn.com/problems/palindrome-linked-list)) | [Java](./src/code/java/_234.java) | Easy |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) ([二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree)) | [Java](./src/code/java/_235.java) | Easy |
