@@ -3,5 +3,6 @@ bin
 .idea
 .classpath
 .project
-log.txt
+*.iml
+#log.txt
 Test.java

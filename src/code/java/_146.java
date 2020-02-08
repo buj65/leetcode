@@ -7,7 +7,7 @@ import java.util.Map;
 public class _146 {
     private DNode head;
     private DNode tail;
-    private int capacity;
+    final private int capacity;
     private Map<Integer, DNode> map;
 
     public _146(int capacity) {

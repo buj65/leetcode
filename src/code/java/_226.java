@@ -1,7 +1,7 @@
 package code.java;
 
 //226. 翻转二叉树
-class Solution {
+class _226 {
     public TreeNode invertTree(TreeNode root) {
         exchange(root);
         return root;
