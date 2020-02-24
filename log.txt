@@ -1,7 +1,5 @@
-1.数据结构与算法分析 https://book.douban.com/subject/1139426/
-2.https://visualgo.net
-3.算法 https://book.douban.com/subject/19952400/
-
+数据结构与算法分析 https://book.douban.com/subject/1139426/
+https://visualgo.net
 
 引论
  1.讨论内容
@@ -63,42 +61,21 @@ ADT(Abstract Data Type): 抽象数据类型
 
 
 快速排序
-  在最坏情况下 其会退化为冒泡排序
-  既每次选取的元素只能将序列划分为一段 即选取的是最小或最大元素
+  在最坏情况下 会退化为冒泡排序
+  既每次选取的元素是最小或最大元素 只能将序列划分为一段
   T(n)=T(n-1)+n => T(n)=n*(n+1)/2
-  T(n)=T(n-1)+(n-1) => T(n)=n*(n-1)/2 哪个是正确的？
 
-  在最优的情况下 即每次二分序列时都将序列平均地分为两部分
+  在最优的情况下 即每次都将序列平均地分为两部分
   T(n)=2*T(n/2)+n
-  表示将长度为n的序列划分为两个子序列 每个子序列需要T(n/2)的时间 而划分序列需要n的时间
-  T(n)=2*(2*T(n/4)+n/2)+n
-  T(n)=4*T(n/4)+2n
-  T(n)=4*(2*T(n/8)+n/4)+2n
-  T(n)=8*T(n/8)+3n
-  ...
-  T(n)=2^m*T(n/2^m)+mn
-  当2^m=n时，既m=logn
+      =2*(2*T(n/4)+n/2)+n
+      =4*T(n/4)+2n
+      =4*(2*T(n/8)+n/4)+2n
+      =8*T(n/8)+3n
+      ...
+      =2^m*T(n/2^m)+mn
+  最优情况下2^m=n，既m=logn，因此
   T(n)=2^logn*T(1)+nlogn
-  T(n)=n+nlogn
+      =n+nlogn
 
 
 12每硬币称3次找出重量不同的1枚: 第一次分4组称
-
-
-2个有序list交集
-function intersect(arr1,arr2){
-  var res=[];
-  var i=0,j=0;
-  while(i<arr1.length&&j<arr2.length){
-    if(arr1[i]===arr2[j]){
-      res.push(arr1[i]);
-      i++;
-      j++;
-    }else if(arr1[i]<arr2[j]){
-      i++;
-    }else{
-      j++;
-    }
-  }
-  return res;
-}

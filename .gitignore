@@ -1,8 +1,9 @@
-#personal add
+# personal add
 bin
 .idea
 .classpath
 .project
+.settings
 *.iml
-#log.txt
+# log.txt
 Test.java
