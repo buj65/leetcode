@@ -8,7 +8,7 @@ public class Q020 {
     Map<Character, Character> map;
 
     public Q020() {
-        map = new HashMap<Character, Character>();
+        map = new HashMap<>();
         map.put('}', '{');
         map.put(']', '[');
         map.put(')', '(');
@@ -16,8 +16,7 @@ public class Q020 {
 
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
-        int len = s.length();
-        for (int i = 0; i < len; i++) {
+        for (int i = 0; i < s.length(); i++) {
             // if 左括号 放进stack
             // if 右括号 能否消除 ? 消除 : 返回false
             char c = s.charAt(i);

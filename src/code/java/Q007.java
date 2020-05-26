@@ -2,18 +2,15 @@ package code.java;
 
 public class Q007 {
     public int reverse(int x) {
-        int n = 0;
+        int result = 0;
         while (x != 0) {
-            int mod = x % 10;
-            if (mod >= 0 && n > (Integer.MAX_VALUE - mod) / 10) {
+            int temp = result * 10 + x % 10;
+            if (temp / 10 != result) {
                 return 0;
             }
-            if (mod <= 0 && n < (Integer.MIN_VALUE - mod) / 10) {
-                return 0;
-            }
-            n = n * 10 + mod;
+            result = temp;
             x /= 10;
         }
-        return n;
+        return result;
     }
 }

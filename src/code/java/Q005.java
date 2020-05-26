@@ -1,8 +1,9 @@
 package code.java;
 
 public class Q005 {
-    /* 暴力法
-    public String longestPalindrome(String s) {
+    // 暴力法
+    @Deprecated
+    public String longestPalindrome_(String s) {
         int len = s.length();
         String res = "";
         for (int i = 0; i < len; i++) {
@@ -25,7 +26,6 @@ public class Q005 {
         }
         return true;
     }
-    */
 
     // 中心扩展法
     public String longestPalindrome(String s) {
@@ -54,6 +54,6 @@ public class Q005 {
             l--;
             r++;
         }
-        return r - l - 1;// (r-1)+(l-1)+1
+        return r - l - 1;// (r-1)-(l+1)+1
     }
 }

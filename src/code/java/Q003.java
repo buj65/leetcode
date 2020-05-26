@@ -9,8 +9,8 @@ public class Q003 {
      * 遍历，找出以当前字符开头的最长无重复字符串，更新max
      * 时间复杂度：O(n^2)
      */
-    /*
-    public int lengthOfLongestSubstring(String s) {
+    @Deprecated
+    public int lengthOfLongestSubstring_(String s) {
         int max = 0, len = s.length();
         for (int i = 0; i < len; i++) {
             Set<Character> set = new HashSet<Character>();
@@ -23,7 +23,6 @@ public class Q003 {
         }
         return max;
     }
-    */
 
     /**
      * 方法2：滑动窗口
